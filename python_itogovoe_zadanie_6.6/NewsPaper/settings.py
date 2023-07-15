@@ -41,10 +41,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
     'django.contrib.flatpages',
-    # мои приложения
     'news',
-    # 'accounts',
-    # 'NewsPaper'
+    'accounts',
+    'NewsPaper',
 ]
 
 SITE_ID = 1
@@ -57,7 +56,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    # добавлеям ещё это
     'django.contrib.flatpages.middleware.FlatpageFallbackMiddleware',
 ]
 
